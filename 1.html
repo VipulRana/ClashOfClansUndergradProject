@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clash Of Clan</title>
+	<link rel="stylesheet" type="text/css" href="First/css/style.css">
+	</head>
+</head>
+
+
+<style type="text/css">
+
+/*---------- BODY --------------------------------*/
+
+body {
+	text-align: center;
+	background-image: url('A:/WT Project/First/img/back6.jpg');
+	background-size:auto;
+	background-color: #cccccc;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+/*---------- Wrapper --------------------*/
+
+nav {
+	width: 100%;
+	height: 80px;
+	background: #222;
+}
+
+ul {
+	text-align: center;
+}
+
+ul li {
+	font: 13px Verdana, 'Lucida Grande';
+	cursor: pointer;
+	-webkit-transition: padding .05s linear;
+	-moz-transition: padding .05s linear;
+	-ms-transition: padding .05s linear;
+	-o-transition: padding .05s linear;
+	transition: padding .05s linear;
+}
+ul li.drop {
+	position: relative;
+}
+ul > li {
+	display: inline-block;
+}
+ul li a {
+	line-height: 80px;
+	padding: 0 20px;
+	height: 80px;
+	color: #777;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+ul li a:hover {
+	color: #eee;
+}
+
+.dropOut .triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid white;
+	top: -8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.dropdownContain {
+	width: 160px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -80px; /* half of width */
+	top: -400px;
+}
+.dropOut {
+	width: 160px;
+	background: white;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	opacity: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+
+.dropOut ul {
+	float: left;
+	padding: 10px 0;
+}
+.dropOut ul li {
+	text-align: left;
+	float: left;
+	width: 125px;
+	padding: 12px 0 10px 15px;
+	margin: 0px 10px;
+	color: #777;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: background .1s ease-out;
+	-moz-transition: background .1s ease-out;
+	-ms-transition: background .1s ease-out;
+	-o-transition: background .1s ease-out;
+	transition: background .1s ease-out;
+}
+
+.dropOut ul li:hover {
+	background: #f6f6f6;
+}
+
+ul li:hover a { color: white; }
+ul li:hover .dropdownContain { top: 65px; }
+ul li:hover .underline { border-bottom-color: #777; }
+ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
+
+.w3-display-bottomleft{position:absolute;
+	                   left:0;bottom:0}
+.w3-display-bottomright{position:absolute;
+	                   right:0;bottom:0}
+.w3-display-middle{
+	position: absolute;
+	text-align: center;
+	text-decoration-color: white;
+}
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    border-radius: 20%;
+
+}
+
+div.gallery:hover {
+    border: 1px solid white;
+    background: #7171da;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+    text-decoration: blue;
+}
+
+
+</style>
+<body >
+
+
+
+
+<nav>
+
+
+<img src="First/img/logo.png" alt="COC" height="95px" width="250px" align="left" sizes="50px">
+
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="contactus.html">Contact us</a></li>
+			<li><a href="download.html">Download</a></li>
+			<li><a href="AboutUs.html">About us</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="login.html">Login</a></li>
+
+		</ul>
+</nav>
+
+
+    
+    
+
+  
+       <marquee direction="up"> <font color="Blue"> <h2><strong>Welcome to CLASH OF CLAN</font></strong><br/></h2></marquee>
+ 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="First/img/s17.jpg" style="width:100%">
+  <div class="w3-display-middle">
+   <font color="white">
+    <h1>INTRODUCING :<br>
+        WORLD WAR
+    </font></h1>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="First/img/s16.jpg" style="width:100%">
+  <div class="w3-display-middle">
+    <font color="white">
+    <h1> LOOTER :<br>
+    They are faster than a Spring Trap
+    </font></h1>
+    
+    </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="First/img/s15.jpg" style="width:100%">
+  <div class="w3-display-middle">
+    <font color="white">
+    <h1> UNDETECTABLE:<br>
+    Minions materialize with ease, but are fragile in our world
+    </font></h1>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="First/img/s13.jpg" style="width:100%">
+  <div class="w3-display-middle">
+   <font color="white">
+    <h1> SUMMON DEAD WARRIROR:<br>
+    The Witch never fights alone, constantly raising dead warriors
+    </font></h1>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="First/img/s12.jpg" style="width:100%">
+  <div class="w3-display-middle">
+<font color="white">
+    <h1> GLORIOUS WARRIROR:<br>
+    A master of the two-handed axe
+    </font></h1>
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<div class="content">
+					<h1><a href="#">Clash Of Clans</h1>
+					<p>Just a few step away to download the game<br />
+					Download the latest version for your android device.......</p></a>
+					<a href="download.html" class="button-1">Download</a>
+				</div>
+					</div>
+	
+
+
+		<div id="primary-content">
+    <div class="wrapper">
+        <article>
+            <marquee direction="up"><h3>welcome to the bulider base!</h3></marquee>
+            <p>Welcome to the Builder Base, Chief! This exciting new land is run by the Master Builder. He’s your only Builder on this side of the sea, but his superior smarts have helped him develop some awesome new advancements. Once you make it to Town Hall 4 at your home village, you can rebuild the boat and set sail for the other side.
+</p>
+            <a href="#"><img src="First/img/Builder_Base.jpg" alt="video placeholder" /></a>
+        </article>
+    </div>
+
+				
+<div id="cta">
+    <div class="fw">
+    	
+        <marquee direction="down"> <font color="blue"><h3>Friendly Wars!</h3></font></marquee>
+       <p>Friendly Wars allow any two Clans to do battle with custom settings and arrangements!</p>
+
+        <a href="https://clashofclans.com/blog/news/friendly-wars" class="button-2">Read More.......</a><pre>
+         <iframe src="http://www.youtube.com/embed/sHa5fTM59d4" width="800" height="500" frameborder="0" allowfullscreen></iframe>
+     </pre>
+ </font>
+   </pre>
+   </div>
+   </div>
+   <!--partion-->
+					<section class="spotlight">
+						<div class="image"><img src="First/img/fig.jpeg" alt="" /></div>
+						<div class="content">
+							<h3>Making Clash Of Clan Troops..... </h3>
+							<p>A lot went into making these little figures! The idea to bring Clash characters into the real world in the form of figures first came about in 2015. We created a prototype in our Seoul office of a Barbarian and brought it to the game team to have a look. We all agreed it was pretty cool, and that put in motion our plan to get to work on five initial characters from our games.<p>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="First/img/g2.jpg" alt="" /></div>
+						<div class="content">
+							<h3>Amazing perks at first download...</h3>
+							<p>Downloading the game and creating your account with your Gameid. Gives you a perk to boost your game at the start.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="First/img/clashon.jpg" alt="" /></div>
+						<div class="content">
+							<h3>GET STARTED NOW</h3>
+							<p>So download the game NOW.To know more about the game click the which will be transfered to features page</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="First/img/war.png" alt="" /></div>
+						<div class="content">
+							<h3>War Matchmaking Improvements & Cannon Cart Balance</h3>
+							<p>As we have mentioned recently, there have been changes to the Clan War matchmaking algorithm that have been in development for the past few weeks. Those changes will be going live with this maintenance.  The implementation of these changes are intended to create a greater sense of fair matches based on your opponents’ equivalent difficulty.  We will be closely monitoring its performance to make sure match equality is improved without impacting search times severely.</p>
+						</div>
+					</section>
+				</p>
+			</p>
+	
+
+     
+<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				
+				<div class="Footer-DownloadButtons" data-reactid=".2asvfwwx9ts.0.5.0.1.0">
+				<a href="https://47428.measurementapi.com/serve?action=click&amp;publisher_id=47428&amp;site_id=8688&amp;sub_campaign=clashofclanscom" target="_blank" title="App Store Download" data-reactid=".2asvfwwx9ts.0.5.0.1.0.0">
+				<img src="https://clashofclans.com/uploaded-images/en_apple.png?mtime=20161012154917" height="40" class="Download-AppStore" data-reactid=".2asvfwwx9ts.0.5.0.1.0.0.0"></a>
+				<a href="https://47428.measurementapi.com/serve?action=click&amp;publisher_id=47428&amp;site_id=35440&amp;sub_campaign=clashofclanscom" target="_blank" title="Google Play Download" data-reactid=".2asvfwwx9ts.0.5.0.1.0.1">
+				<img src="https://clashofclans.com/uploaded-images/en_google.png?mtime=20161012154930" height="40" class="Download-GooglePlay" data-reactid=".2asvfwwx9ts.0.5.0.1.0.1.0"></a><pre>
+
+
+</div>
+
+</pre>
+<div class="gallery">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="A:\WT Project\AboutUs\images\urmil.jpg" alt="Urmil" width="250" height="300">
+  </a>
+  <div class="desc"><b>Urmil Lodaya<br>
+  Computer Engineer</div></b>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="A:\WT Project\AboutUs\images\vipul.jpg" alt="Vipul" width="250" height="300">
+  </a>
+  <div class="desc"><b>Vipul Rana<br>Computer Engineer</b>
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="A:\WT Project\AboutUs\images\deepak.jpg" alt="Deepak" width="250" height="300">
+  </a>
+  <div class="desc"><b>Deepak Parmar<br>Computer Engineer</b>
+  </div>
+</div>
+
+
+				</div>
+			</footer>
+
+				<ul class="copyright">
+					<li>&copy; COC.</li><li>Credits:<a href="AboutUs.html"> UVD</a></li>
+				</ul>
+
+
+
+
+
+
+</body>
+</html> 

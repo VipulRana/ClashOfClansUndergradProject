@@ -1,0 +1,14 @@
+#header {
+		height: auto;
+		text-align: center;
+	}
+
+		#header .content {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#header .image {
+			display: inline-block;
+			vertical-align: middle;
+		}
